@@ -2,21 +2,23 @@
 
 A focused portfolio repo for small defensive security scripts, assessment helpers, GRC templates, and lab notes.
 
-This repository is intentionally scoped as a learning and portfolio toolkit. It collects the small security work that does not need a standalone repository, while keeping each item documented enough for someone else to understand the goal, assumptions, and safe usage.
+This repository is intentionally scoped as a learning and portfolio toolkit. It collects small security work that does not need a standalone repository, while keeping each item documented enough for someone else to understand the goal, assumptions, and safe usage.
 
-## Toolkit Areas
+## Included Starter Items
 
-- `windows/` - Windows endpoint checks, PowerShell ideas, and local posture review notes.
-- `linux/` - Linux hardening checks, service review notes, and command-line practice.
-- `m365/` - Microsoft 365 and Entra ID review notes for identity, access, applications, and tenant posture.
-- `grc/` - Risk assessment templates, finding write-up structure, and control-mapping notes.
-- `scripts/` - Small helper scripts that are useful in labs or educational assessments.
+| Area | Item | Purpose |
+| --- | --- | --- |
+| Windows | `windows/windows-posture-check.ps1` | Collect firewall, local admin, hotfix, and service posture signals for authorized review. |
+| Linux | `linux/ssh-hardening-checklist.md` | Checklist for reviewing SSH exposure and baseline hardening. |
+| M365 / Entra | `m365/access-review-checklist.md` | Practical identity and access review checklist aligned with SC-300 study. |
+| GRC | `grc/risk-register-template.md` | Lightweight risk register structure with scoring and remediation fields. |
+| IR | `scripts/incident-notes-template.md` | Repeatable notes template for incident triage or CCDC practice. |
 
 ## Current Focus
 
-- Documenting checks before adding code so each script has a clear purpose and limitation.
 - Keeping examples lab-safe and defensive.
 - Connecting technical observations to risk language, remediation steps, and evidence.
+- Building notes around Windows, Linux, Microsoft 365 / Entra ID, GRC, and incident response practice.
 
 ## Safety Notes
 
